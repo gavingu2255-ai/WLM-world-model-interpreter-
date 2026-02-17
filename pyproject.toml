@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wlm-world-model-interpreter"
+version = "0.1.0"
+description = "Convert world-model outputs into deterministic WLM structural graphs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+    { name = "WLM Project" }
+]
+
+keywords = [
+    "WLM",
+    "world-model",
+    "structural-reasoning",
+    "video-models",
+    "embodied-ai",
+    "deterministic-graphs"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/WLM-world-model-interpreter"
+Documentation = "https://github.com/YOUR_USERNAME/WLM-world-model-interpreter/tree/main/docs"
+Source = "https://github.com/YOUR_USERNAME/WLM-world-model-interpreter"
+Issues = "https://github.com/YOUR_USERNAME/WLM-world-model-interpreter/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+wlm-world = "wlm_world_model_interpreter.cli:main"
