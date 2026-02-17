@@ -252,3 +252,9 @@ It enables:
 - AI systems that reason with structure  
 
 A foundational component of the **WLM ecosystem**.
+
+## 🔗 Potential Data Sources
+This interpreter can process text from:
+- **Web Crawlers**: Convert messy site content into clean structural states.
+- **Vision Models**: Translate video/image captions into executable world graphs.
+- **Agent Logs**: Standardize multi-agent observations for conflict resolution.
